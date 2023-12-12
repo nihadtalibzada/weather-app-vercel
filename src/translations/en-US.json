@@ -1,0 +1,30 @@
+{
+  "global": {
+    "close": "Close"
+  },
+  "appName": "WeatherApp",
+  "airConditions": {
+    "realFeel": "Real Feel",
+    "humidity": "Humidity",
+    "wind": "Wind",
+    "pressure": "Air pressure"
+  },
+  "labels": {
+    "dailyForecast": "DAILY FORECAST",
+    "hourlyForecast": "3 HOUR FORECAST",
+    "airConditions": "AIR CONDITIONS",
+    "search": "Search",
+    "searchPlaceholder": "Search a city",
+    "switchTheme": "Switch theme"
+  },
+  "errorMessages": {
+    "default": "Error occurred while searching for the forecast. Please try again.",
+    "404": "City not found. Please check the city name and try again.",
+    "401": "Unauthorized access. Please check your credentials.",
+    "500": "Internal server error. Please try again later.",
+    "emptyInput": "Please search for a city name."
+  },
+  "languageSelector": {
+    "tooltip": "Language"
+  }
+}
