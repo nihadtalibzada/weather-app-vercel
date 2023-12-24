@@ -21,8 +21,8 @@
         <WeatherInfo/>
       </v-container>
     </v-main>
-    <v-row class="d-flex row pt-4 justify-space-between">
-      <v-col>
+    <v-row class="d-flex flex-sm-row flex-column pt-4 justify-space-between">
+      <v-col class="px-8 px-sm-0">
         <p class="text--primary">Real time weather forecast through <a href="https://openweathermap.org/api" target="_blank" class="text-decoration-underline">OpenWeather API.</a></p>
       </v-col>
       <v-col>
