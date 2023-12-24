@@ -21,6 +21,14 @@
         <WeatherInfo/>
       </v-container>
     </v-main>
+    <v-row class="d-flex row pt-4 justify-space-between">
+      <v-col>
+        <p class="text--primary">Real time weather forecast through <a href="https://openweathermap.org/api" target="_blank" class="text-decoration-underline">OpenWeather API.</a></p>
+      </v-col>
+      <v-col>
+        <p class="text--primary">Copyright &copy; {{ new Date().getFullYear() }} — <a href="https://www.talibzada.com/" target="_blank" class="text-decoration-underline">Nihad Talibzada</a></p>
+      </v-col>
+    </v-row>
   </v-app>
 </template>
 
@@ -57,5 +65,9 @@ export default {
 
 .weather-app-bar .v-toolbar__content {
   padding: 0;
+}
+
+.v-skeleton-loader__image:first-child, .v-skeleton-loader__image:last-child {
+  border-radius: unset !important;
 }
 </style>
